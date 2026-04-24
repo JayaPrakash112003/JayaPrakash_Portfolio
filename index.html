@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JP /> .DEV | Jaya Prakash — Java Developer & AWS Cloud Practitioner</title>
+  <meta name="description"
+    content="Portfolio of Jaya Prakash M — Java Application Developer with Spring Boot & AWS Cloud Practitioner. Building scalable backend systems and automation workflows." />
+  <meta property="og:title" content="Jaya Prakash M | Java Developer Portfolio" />
+  <meta property="og:description"
+    content="Java Application Developer | Spring Boot | AWS Certified Cloud Practitioner" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- tsParticles -->
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+  <!-- Devicons for skills -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
+  <!-- RemixIcon for misc icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.7.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- Scan-line overlay -->
+  <div class="scanline-overlay" aria-hidden="true"></div>
+
+  <!-- Particle Background -->
+  <div id="tsparticles"></div>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-logo">
+      <a href="#hero" id="nav-logo-link">JP <span class="logo-accent">/></span> <span class="logo-dev">.DEV</span></a>
+    </div>
+    <nav class="nav-links" id="nav-links">
+      <a href="#about" class="nav-item">About</a>
+      <a href="#skills" class="nav-item">Skills</a>
+      <a href="#projects" class="nav-item">Projects</a>
+      <a href="#experience" class="nav-item">Experience</a>
+      <a href="#contact" class="nav-item">Contact</a>
+    </nav>
+    <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-left">
+        <div class="status-indicator">
+          <span class="status-dot"></span>
+          <span class="status-text">&gt;_ SYSTEM_ONLINE</span>
+        </div>
+        <h1 class="hero-name glitch" data-text="JAYA PRAKASH ">JAYA<br />PRAKASH </h1>
+        <p class="hero-role">Java Application Developer <span class="role-sep">|</span> AWS Cloud Practitioner</p>
+        <div class="hero-divider"></div>
+        <p class="hero-desc">
+          Building robust backend systems that scale — from Spring Boot microservices to intelligent automation
+          workflows with N8N. AWS Certified cloud practitioner passionate about clean architecture and real-world
+          impact.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary" id="view-work-btn">
+            <i class="ri-terminal-box-line"></i> VIEW WORK
+          </a>
+          <a href="https://github.com/JayaPrakash112003" target="_blank" rel="noopener" class="btn btn-outline"
+            id="github-btn">
+            <i class="ri-github-line"></i> GITHUB
+          </a>
+        </div>
+        <div class="hero-social-links">
+          <a href="https://github.com/JayaPrakash112003" target="_blank" rel="noopener" aria-label="GitHub"
+            class="social-icon" id="hero-github"><i class="ri-github-fill"></i></a>
+          <a href="https://www.linkedin.com/in/m-jayaprakash" target="_blank" rel="noopener" aria-label="LinkedIn"
+            class="social-icon" id="hero-linkedin"><i class="ri-linkedin-fill"></i></a>
+          <a href="mailto:jayaprakash112003@gmail.com" aria-label="Email" class="social-icon" id="hero-email"><i
+              class="ri-mail-fill"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="portrait-frame">
+          <div class="bracket bracket-tl"></div>
+          <div class="bracket bracket-br"></div>
+          <img src="assets/profile.png" alt="Jaya Prakash M — Java Developer" class="portrait-img" id="hero-portrait"
+            onerror="this.style.display='none'; document.getElementById('portrait-fallback').style.display='flex';" />
+          <div class="portrait-fallback" id="portrait-fallback">
+            <i class="ri-user-3-fill"></i>
+          </div>
+          <div class="portrait-scan-line"></div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator" id="scroll-indicator">
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-num">01.</span>
+        <h2 class="section-title">ABOUT</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm <strong>Jaya Prakash M</strong>, a passionate <strong>Java Application Developer</strong> specializing
+            in building scalable, production-ready backend systems. I architect clean Spring Boot microservices and
+            integrate them with cloud infrastructure on AWS.
+          </p>
+          <p>
+            As an <strong>AWS Certified Cloud Practitioner</strong>, I bridge the gap between development and
+            cloud-native deployment—from containerization to serverless functions. I also build intelligent automation
+            workflows using N8N and FastAPI chatbots, combining AI-driven pipelines with solid engineering fundamentals.
+          </p>
+          <p>
+            My academic background in engineering combined with practical project experience in Kotlin (Android), Java,
+            Python, and cloud platforms makes me a versatile developer ready to tackle complex challenges end-to-end.
+          </p>
+          <div class="about-services">
+            <div class="service-item reveal-left">
+              <i class="ri-server-line"></i>
+              <span>Backend Development</span>
+            </div>
+            <div class="service-item reveal-left">
+              <i class="ri-cloud-line"></i>
+              <span>Cloud Architecture</span>
+            </div>
+            <div class="service-item reveal-left">
+              <i class="ri-robot-line"></i>
+              <span>AI Automation</span>
+            </div>
+            <div class="service-item reveal-left">
+              <i class="ri-smartphone-line"></i>
+              <span>Android Development</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-stats reveal-right">
+          <div class="stats-terminal">
+            <div class="terminal-header">
+              <span class="terminal-dot dot-red"></span>
+              <span class="terminal-dot dot-yellow"></span>
+              <span class="terminal-dot dot-green"></span>
+              <span class="terminal-title">&lt;Stats /&gt;</span>
+            </div>
+            <div class="terminal-body">
+              <div class="stat-row"><span class="stat-key">Role</span><span class="stat-sep">→</span><span
+                  class="stat-val">Java App Developer</span></div>
+              <div class="stat-row"><span class="stat-key">Certification</span><span class="stat-sep">→</span><span
+                  class="stat-val">AWS Cloud Practitioner</span></div>
+              <div class="stat-row"><span class="stat-key">Primary Stack</span><span class="stat-sep">→</span><span
+                  class="stat-val">Java / Spring Boot</span></div>
+              <div class="stat-row"><span class="stat-key">Cloud</span><span class="stat-sep">→</span><span
+                  class="stat-val">AWS</span></div>
+              <div class="stat-row"><span class="stat-key">Automation</span><span class="stat-sep">→</span><span
+                  class="stat-val">N8N / FastAPI</span></div>
+              <div class="stat-row"><span class="stat-key">Mobile</span><span class="stat-sep">→</span><span
+                  class="stat-val">Android / Kotlin</span></div>
+              <div class="stat-row"><span class="stat-key">GitHub Repos</span><span class="stat-sep">→</span><span
+                  class="stat-val accent">15+ Public</span></div>
+              <div class="stat-row"><span class="stat-key">Status</span><span class="stat-sep">→</span><span
+                  class="stat-val green">OPEN_TO_WORK</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SKILLS ===================== -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-num">02.</span>
+        <h2 class="section-title">ARSENAL</h2>
+        <div class="section-line"></div>
+      </div>
+      <p class="section-sub reveal">Technologies I wield in the field.</p>
+      <div class="skills-grid">
+
+        <div class="skill-card reveal" id="skill-java">
+          <i class="devicon-java-plain colored skill-icon"></i>
+          <span class="skill-name">Java</span>
+          <div class="skill-bar">
+            <div class="skill-fill" style="--w:90%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal" id="skill-spring">
+          <i class="devicon-spring-plain colored skill-icon"></i>
+          <span class="skill-name">Spring Boot</span>
+          <div class="skill-bar">
+            <div class="skill-fill" style="--w:85%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal" id="skill-aws">
+          <i class="devicon-amazonwebservices-plain-wordmark colored skill-icon"></i>
+          <span class="skill-name">AWS</span>
+          <div class="skill-bar">
+            <div class="skill-fill" style="--w:80%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal" id="skill-python">
+          <i class="devicon-python-plain colored skill-icon"></i>
+          <span class="skill-name">Python</span>
+          <div class="skill-bar">
+            <div class="skill-fill" style="--w:80%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal" id="skill-kotlin">
+          <i class="devicon-kotlin-plain colored skill-icon"></i>
+          <span class="skill-name">Kotlin</span>
+          <div class="skill-bar">
+            <div class="skill-fill" style="--w:75%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal" id="skill-docker">
+          <i class="devicon-docker-plain colored skill-icon"></i>
+          <span class="skill-name">Docker</span>
+          <div class="skill-bar">
+            <div class="skill-fill" style="--w:70%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal" id="skill-mysql">
+          <i class="devicon-mysql-plain colored skill-icon"></i>
+          <span class="skill-name">MySQL</span>
+          <div class="skill-bar">
+            <div class="skill-fill" style="--w:80%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal" id="skill-git">
+          <i class="devicon-git-plain colored skill-icon"></i>
+          <span class="skill-name">Git</span>
+          <div class="skill-bar">
+            <div class="skill-fill" style="--w:85%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal" id="skill-fastapi">
+          <i class="devicon-fastapi-plain colored skill-icon"></i>
+          <span class="skill-name">FastAPI</span>
+          <div class="skill-bar">
+            <div class="skill-fill" style="--w:70%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal" id="skill-n8n">
+          <i class="ri-flow-chart skill-icon n8n-icon"></i>
+          <span class="skill-name">N8N</span>
+          <div class="skill-bar">
+            <div class="skill-fill" style="--w:75%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal" id="skill-android">
+          <i class="devicon-android-plain colored skill-icon"></i>
+          <span class="skill-name">Android</span>
+          <div class="skill-bar">
+            <div class="skill-fill" style="--w:75%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal" id="skill-postgresql">
+          <i class="devicon-postgresql-plain colored skill-icon"></i>
+          <span class="skill-name">PostgreSQL</span>
+          <div class="skill-bar">
+            <div class="skill-fill" style="--w:70%"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS ===================== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-num">03.</span>
+        <h2 class="section-title">DEPLOYMENTS</h2>
+        <div class="section-line"></div>
+      </div>
+      <p class="section-sub reveal">Systems shipped to production.</p>
+      <div class="projects-grid">
+
+        <div class="project-card reveal" id="proj-weathernet">
+          <div class="project-card-inner">
+            <div class="project-icon"><i class="ri-cloud-windy-line"></i></div>
+            <h3 class="project-title">WeatherNet</h3>
+            <p class="project-desc">Android weather application built with Kotlin, fetching live meteorological data and
+              presenting it in a clean, intuitive interface.</p>
+            <div class="project-tags">
+              <span class="tag">Kotlin</span>
+              <span class="tag">Android</span>
+              <span class="tag">REST API</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/JayaPrakash112003/WeatherNet" target="_blank" rel="noopener" class="proj-link"
+                id="proj-weathernet-link">
+                <i class="ri-github-line"></i> CODE
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal" id="proj-medical">
+          <div class="project-card-inner">
+            <div class="project-icon"><i class="ri-hospital-line"></i></div>
+            <h3 class="project-title">Medical Insurance</h3>
+            <p class="project-desc">Java-based medical insurance management system with Spring Boot backend, handling
+              policy management, claims processing, and user authentication.</p>
+            <div class="project-tags">
+              <span class="tag">Java</span>
+              <span class="tag">Spring Boot</span>
+              <span class="tag">MySQL</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/JayaPrakash112003/Medical-Insurance" target="_blank" rel="noopener"
+                class="proj-link" id="proj-medical-link">
+                <i class="ri-github-line"></i> CODE
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal" id="proj-n8n">
+          <div class="project-card-inner">
+            <div class="project-icon"><i class="ri-flow-chart"></i></div>
+            <h3 class="project-title">N8N Automation</h3>
+            <p class="project-desc">Intelligent workflow automation pipelines leveraging N8N orchestration integrated
+              with Java services. Automates repetitive business processes end-to-end.</p>
+            <div class="project-tags">
+              <span class="tag">N8N</span>
+              <span class="tag">Java</span>
+              <span class="tag">REST API</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/JayaPrakash112003/N8N-Automation-" target="_blank" rel="noopener"
+                class="proj-link" id="proj-n8n-link">
+                <i class="ri-github-line"></i> CODE
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal" id="proj-chatbot">
+          <div class="project-card-inner">
+            <div class="project-icon"><i class="ri-chat-ai-line"></i></div>
+            <h3 class="project-title">FastAPI Chatbot</h3>
+            <p class="project-desc">AI-powered conversational chatbot built with FastAPI. Integrates LLM backends with a
+              clean async Python REST interface for real-time chat.</p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">FastAPI</span>
+              <span class="tag">AI/LLM</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/JayaPrakash112003/Fast_API_chatbot-" target="_blank" rel="noopener"
+                class="proj-link" id="proj-chatbot-link">
+                <i class="ri-github-line"></i> CODE
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal" id="proj-2048">
+          <div class="project-card-inner">
+            <div class="project-icon"><i class="ri-gamepad-line"></i></div>
+            <h3 class="project-title">2048 Game</h3>
+            <p class="project-desc">Classic 2048 puzzle game implemented in JavaScript with smooth tile animations,
+              keyboard/touch controls, and score tracking.</p>
+            <div class="project-tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">CSS</span>
+              <span class="tag">HTML5</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/JayaPrakash112003/2048-Game-2025" target="_blank" rel="noopener"
+                class="proj-link" id="proj-2048-link">
+                <i class="ri-github-line"></i> CODE
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal" id="proj-esp">
+          <div class="project-card-inner">
+            <div class="project-icon"><i class="ri-wifi-line"></i></div>
+            <h3 class="project-title">ESP8266 File Server</h3>
+            <p class="project-desc">IoT file server running on ESP8266 microcontroller, enabling wireless file upload
+              and download over WiFi — bridging embedded hardware with web interfaces.</p>
+            <div class="project-tags">
+              <span class="tag">ESP8266</span>
+              <span class="tag">IoT</span>
+              <span class="tag">C++</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/JayaPrakash112003/ESP8266-File-Server" target="_blank" rel="noopener"
+                class="proj-link" id="proj-esp-link">
+                <i class="ri-github-line"></i> CODE
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EXPERIENCE ===================== -->
+  <section class="section section-alt" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-num">04.</span>
+        <h2 class="section-title">MISSION LOG</h2>
+        <div class="section-line"></div>
+      </div>
+      <p class="section-sub reveal">Education & milestones on the journey.</p>
+      <div class="timeline">
+
+        <div class="timeline-item reveal" id="tl-aws">
+          <div class="timeline-node"><span class="node-pulse"></span></div>
+          <div class="timeline-card">
+            <span class="timeline-date">2024</span>
+            <h3 class="timeline-title">AWS Certified Cloud Practitioner</h3>
+            <p class="timeline-org"><i class="ri-amazon-line"></i> Amazon Web Services</p>
+            <p class="timeline-desc">Earned the AWS Cloud Practitioner certification, validating foundational knowledge
+              of AWS cloud services, architecture, security, and pricing models.</p>
+            <div class="timeline-tags">
+              <span class="tag">AWS</span><span class="tag">Cloud</span><span class="tag">Certification</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal" id="tl-dev">
+          <div class="timeline-node"><span class="node-pulse"></span></div>
+          <div class="timeline-card">
+            <span class="timeline-date">2023 – Present</span>
+            <h3 class="timeline-title">Java Application Developer</h3>
+            <p class="timeline-org"><i class="ri-code-s-slash-line"></i> Spring Boot & Microservices</p>
+            <p class="timeline-desc">Developed multiple production-grade Java applications using Spring Boot,
+              implementing RESTful microservices, JWT authentication, and MySQL/PostgreSQL database integrations. Built
+              N8N automation workflows that reduced manual business processes significantly.</p>
+            <div class="timeline-tags">
+              <span class="tag">Java</span><span class="tag">Spring Boot</span><span class="tag">REST API</span><span
+                class="tag">N8N</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal" id="tl-android">
+          <div class="timeline-node"><span class="node-pulse"></span></div>
+          <div class="timeline-card">
+            <span class="timeline-date">2025</span>
+            <h3 class="timeline-title">Android Developer — WeatherNet</h3>
+            <p class="timeline-org"><i class="ri-android-line"></i> Kotlin / Android Studio</p>
+            <p class="timeline-desc">Built WeatherNet, a full-featured Kotlin Android application consuming live weather
+              APIs, showcasing MVVM architecture, Retrofit HTTP client, and modern Android UI patterns. Gained 5+ GitHub
+              stars.</p>
+            <div class="timeline-tags">
+              <span class="tag">Kotlin</span><span class="tag">Android</span><span class="tag">MVVM</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal" id="tl-edu">
+          <div class="timeline-node"><span class="node-pulse"></span></div>
+          <div class="timeline-card">
+            <span class="timeline-date">2021 – 2025</span>
+            <h3 class="timeline-title">Bachelor of Engineering</h3>
+            <p class="timeline-org"><i class="ri-graduation-cap-line"></i> Tamil Nadu, India</p>
+            <p class="timeline-desc">Completed undergraduate engineering degree with a focus on software development,
+              algorithms, and electronics — building the technical foundation for full-stack and embedded development.
+            </p>
+            <div class="timeline-tags">
+              <span class="tag">Engineering</span><span class="tag">DSA</span><span class="tag">Systems</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-num">05.</span>
+        <h2 class="section-title">ESTABLISH UPLINK</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-content reveal">
+        <p class="contact-intro">
+          Ready to collaborate on challenging systems? I'm actively seeking opportunities in Java backend development,
+          cloud-native architectures, and intelligent automation. Let's build something remarkable.
+        </p>
+        <div class="contact-buttons">
+          <a href="mailto:jayaprakash112003@gmail.com" class="btn btn-primary" id="contact-email-btn">
+            <i class="ri-mail-send-line"></i> SEND MESSAGE
+          </a>
+          <a href="https://www.linkedin.com/in/m-jayaprakash" target="_blank" rel="noopener" class="btn btn-outline"
+            id="contact-linkedin-btn">
+            <i class="ri-linkedin-line"></i> LINKEDIN
+          </a>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-item">
+            <i class="ri-mail-line"></i>
+            <div>
+              <p class="contact-label">EMAIL</p>
+              <a href="mailto:jayaprakash112003@gmail.com" class="contact-val"
+                id="email-link">jayaprakash112003@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="ri-github-line"></i>
+            <div>
+              <p class="contact-label">GITHUB</p>
+              <a href="https://github.com/JayaPrakash112003" target="_blank" rel="noopener" class="contact-val"
+                id="github-profile-link">JayaPrakash112003</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="ri-linkedin-line"></i>
+            <div>
+              <p class="contact-label">LINKEDIN</p>
+              <a href="https://www.linkedin.com/in/m-jayaprakash" target="_blank" rel="noopener" class="contact-val"
+                id="linkedin-profile-link">m-jayaprakash</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="ri-map-pin-line"></i>
+            <div>
+              <p class="contact-label">LOCATION</p>
+              <span class="contact-val">Tamil Nadu, India</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-copy">© 2026 <span class="accent">Jaya Prakash</span>. All systems operational.</p>
+      <p class="footer-status"><span class="status-dot small"></span> &gt;_ CONNECTION_STABLE | UPTIME: 99.9%</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
