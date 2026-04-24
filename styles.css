@@ -204,13 +204,13 @@ img { max-width: 100%; }
 /* Hero name with glitch */
 .hero-name {
   font-family: var(--font-head);
-  font-size: clamp(3rem, 7vw, 6rem);
+  font-size: clamp(3rem, 6.5vw, 75px);
   font-weight: 900;
   line-height: 1.05;
-  letter-spacing: 2px;
+  letter-spacing: -3.6px;
   text-transform: uppercase;
-  color: var(--text-primary);
-  margin-bottom: 1rem;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
   position: relative;
 }
 .hero-name.glitch {
@@ -233,11 +233,11 @@ img { max-width: 100%; }
   font-size: 1.15rem;
   font-weight: 600;
   color: var(--accent-cyan);
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-transform: uppercase;
   margin-bottom: 1rem;
 }
-.role-sep { color: var(--text-muted); margin: 0 8px; }
+.role-sep { color: var(--text-muted); margin: 0 5px; }
 
 .hero-divider {
   width: 50px;
